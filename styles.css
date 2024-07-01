@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(mukes_bhai.jpg);
+    background-size:100% 700px;
+    background-repeat: no-repeat;
+}
+
+ h2 {
+    text-align: center;
+    font-weight:bolder;
+    text-decoration: underline;
+}
+h1{
+    text-align:center;
+    font-weight:800;
+    color:rgb(199, 170, 7);
+    text-shadow: 
+        1px 1px 0 white, 
+        -1px -1px 0 white, 
+        -1px 1px 0 white, 
+        1px -1px 0 white;
+    text-decoration: underline;
+    font-family:sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.form-container, .summary-container, .transactions-container {
+    border: 3px double white;
+    border-radius: 20px;
+    padding: 20px;
+    margin:3px;
+    width: 30%;
+    background:transparent;
+    backdrop-filter: blur(8px);
+    overflow:hidden;
+}
+
+.form-container label, .form-container select {
+    display:block;
+    margin-bottom: 10px;
+}
+
+ .form-container input, .form-container select { 
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+.form-container button{
+    padding: 9px;
+    border-radius:10px;
+    margin: 10px 0px 15px 92px;
+    cursor:pointer;
+    width:50%;
+    background-color:green;
+}
+
+.transactions-container ul {
+    list-style-type:circle;
+    padding: 0;
+}
+
+.transactions-container li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px 0;
+}
+.summary-container p{
+    font-size: larger;
+    font-weight: bolder;
+}
